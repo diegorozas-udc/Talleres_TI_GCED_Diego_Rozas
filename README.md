@@ -1,4 +1,6 @@
-# Prácticas de Teoría de la Información  
+# Prácticas de Teoría de la Información 
+Grado Ciencia e Ingeniería de Datos (GCED) de la Universidade da Coruña (Facultad de A Coruña) 
+
 ## Entorno recomendado por la asignatura
 
 En esta asignatura se **recomienda explícitamente** el uso de **GitHub Codespaces** como entorno de trabajo para las prácticas.
