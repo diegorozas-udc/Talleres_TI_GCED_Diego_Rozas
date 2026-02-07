@@ -32,13 +32,14 @@ Por este motivo, se aconseja encarecidamente utilizar el entorno propuesto, espe
 
 ## 🧩 Uso del repositorio durante el curso (importante)
 
-Este repositorio actúa como **repositorio base de la asignatura** y **no se utiliza directamente para trabajar en las prácticas**.
+Este repositorio es una **plantilla (template)** de la asignatura y **no se utiliza directamente para trabajar en las prácticas**.
 
 Cada estudiante deberá:
 
-1. **Crear una copia propia del repositorio (fork)**  
-2. Trabajar siempre sobre **su propio repositorio**
-3. Crear su **Codespace asociado a ese repositorio personal**
+1. **Usar esta plantilla** para crear una copia en su cuenta (botón **Use this template** en GitHub)
+2. **Configurar el nuevo repositorio como privado**
+3. Trabajar siempre sobre **su propio repositorio**
+4. Crear su **Codespace asociado a ese repositorio personal**
 
 👉 Esto permite que cada estudiante tenga:
 - su propio espacio de trabajo
@@ -49,26 +50,36 @@ Cada estudiante deberá:
 
 ### 🔐 Repositorio propio y privacidad
 
-Se recomienda que el repositorio personal sea **privado**, para evitar:
+El repositorio creado a partir de la plantilla debe ser **privado**, para evitar:
 - plagios involuntarios
 - compartir soluciones sin querer
 - accesos no deseados
 
-El profesor **no necesita acceso** a tu repositorio personal salvo que se indique explícitamente para alguna entrega.
+El profesor **no necesita acceso** a tu repositorio personal.
+
+---
+
+### 🔄 Sincronizar el Codespace con tu repositorio (muy importante)
+
+Es **fundamental** que sincronices tu Codespace con tu repositorio privado con regularidad (commit y push). Así se garantiza la **permanencia** de todo lo que desarrollas en la nube.
+
+Si no sincronizas, el trabajo que hagas en el Codespace podría perderse si el espacio se elimina o expira.
+
+> **Regla de oro:** haz commit y push de tus cambios para que queden guardados en tu repositorio.
 
 ---
 
 ### 📅 ¿Cuándo se hará esto?
 
 El proceso de:
-- crear el fork,
-- configurar el repositorio personal,
+- crear la copia desde la plantilla,
+- configurar el repositorio como privado,
 - y crear el Codespace asociado,
 
 se explicará **paso a paso en el primer taller**.
 
 Por ahora, es suficiente con saber que:
-> **Para trabajar en las prácticas cada estudiante tendrá su propio repositorio y su propio Codespace.**
+> **Para trabajar en las prácticas cada estudiante tendrá su propio repositorio (privado) y su propio Codespace, y debe sincronizar el Codespace con el repositorio para no perder el trabajo.**
 
 ---
 
@@ -83,14 +94,14 @@ Aunque utilices VS Code instalado en tu equipo, los archivos y el Python que se 
 
 ## 🚀 Cómo empezar
 
-Puedes trabajar con GitHub Codespaces de **dos formas equivalentes**.  
+Una vez tengas **tu copia** del repositorio (creada desde la plantilla y configurada como privada), puedes trabajar con GitHub Codespaces de **dos formas equivalentes**.  
 El entorno es el mismo; solo cambia el editor.
 
 ---
 
-### Opción A — Usar Codespaces desde el navegador (la más simple)
+### Opción A — Usar Codespaces desde el navegador (más sencillo)
 
-1. Entra en este repositorio en GitHub
+1. Entra en **tu repositorio** en GitHub
 2. Pulsa el botón **Code**
 3. Ve a la pestaña **Codespaces**
 4. Pulsa **Create codespace**
@@ -100,14 +111,14 @@ No necesitas instalar nada.
 
 ---
 
-### Opción B — Usar Codespaces con VS Code instalado (más cómodo)
+### Opción B — Usar Codespaces con VS Code instalado (si ya lo usas y prefieres usar tu equipo)
 
 Si ya usas Visual Studio Code en tu ordenador:
 
 1. Instala **Visual Studio Code**
 2. Instala la extensión **GitHub Codespaces**
 3. Inicia sesión en GitHub desde VS Code
-4. Abre este repositorio y crea/abre el Codespace
+4. Abre tu repositorio y crea/abre el Codespace
 
 El entorno es el mismo que en el navegador; solo cambia la comodidad del editor.
 
@@ -127,20 +138,20 @@ Si VS Code te pide seleccionar kernel:
 
 ---
 
-## 💾 Guardar vs Commit (muy importante)
+## 💾 Guardar vs Commit vs Push (muy importante)
 
-Hay dos acciones distintas:
+Hay varias acciones distintas:
 
 ### Guardar (`Ctrl + S`)
 - Guarda el archivo en el Codespace
 - **No lo guarda en GitHub**
 
-### Commit
-- Guarda el trabajo **definitivamente** en GitHub
-- Es el equivalente a “guardar en la nube”
+### Commit + Push
+- El commit registra los cambios; el push los envía a tu repositorio en GitHub
+- Así el trabajo queda **definitivamente** en tu repositorio (en la nube)
 
 > **Regla de oro**  
-> Si haces commit, tu trabajo no se pierde.
+> Si haces commit y push, tu trabajo no se pierde y permanece en tu repositorio.
 
 Los avisos de commit **no son errores**, solo recordatorios.
 
@@ -167,14 +178,30 @@ Descargar un archivo crea solo una **copia local**, pero la versión oficial es 
 
 ## 📌 Organización del curso
 
-- Este repositorio proporciona el **entorno común de trabajo**
+- Este repositorio (como plantilla) proporciona el **entorno común de trabajo**
 - Los cuadernos de cada taller se irán proporcionando progresivamente
 - No es necesario conocer Git en profundidad para la asignatura
 
 Al final de cada sesión de prácticas:
 1. Guarda el notebook
-2. Haz commit
+2. Haz commit y push (sincroniza con tu repositorio)
 3. Continúa la próxima sesión sin problemas
+
+---
+
+## 📤 Entrega de las prácticas
+
+**La entrega no se realiza a través del repositorio del estudiante.**
+
+Para cada taller debes:
+
+1. **Descargar** el notebook que hayas completado desde tu Codespace o desde tu repositorio
+2. **Subir** ese archivo a la tarea correspondiente en Moodle
+
+Requisitos de la entrega:
+- Siempre el **notebook completado** del taller
+- **Nombre del fichero** exactamente como se indique (con tus datos de estudiante)
+- Notebook **ejecutado por completo y sin errores** antes de descargarlo
 
 ---
 
@@ -191,10 +218,11 @@ Si el problema persiste, consúltalo en clase.
 
 ## ✅ Resumen final
 
-- No instales Python
-- No crees entornos virtuales
+- Usa la **plantilla** para crear tu repositorio privado (no hagas fork)
+- No instales Python; no crees entornos virtuales
 - Trabaja en GitHub Codespaces
-- Guarda con commit
+- **Sincroniza** tu Codespace con tu repositorio (commit y push)
+- **Entrega** cada taller descargando el notebook completado y subiéndolo a Moodle (nombre correcto, ejecutado sin errores)
 - Céntrate en la asignatura
 
 ---

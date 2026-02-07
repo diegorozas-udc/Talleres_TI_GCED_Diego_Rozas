@@ -19,25 +19,13 @@
   // -----------------------------
   "[python]": {
     "editor.codeLens": false
-  }
-
-  // (Opcional) si también te aparece en notebooks .ipynb, descomenta:
-  // ,
-  // "[jupyter]": {
-  //   "editor.codeLens": false
-  // }
-
-  // -----------------------------
-  // UI: editor más “limpio” al abrir Codespaces
-  // Nota: VS Code puede recordar el último estado del usuario.
-  // -----------------------------
-  ,
-  "workbench.activityBar.visible": false,
+  },
   "workbench.startupEditor": "none",
   "explorer.openEditors.visible": 0,
 
   // Evitar que paneles se abran “solos”
   "workbench.panel.defaultLocation": "bottom",
   "workbench.panel.opensMaximized": false,
-  "workbench.editor.restoreViewState": false
+  "workbench.editor.restoreViewState": false,
+  "workbench.activityBar.location": "hidden"
 }
