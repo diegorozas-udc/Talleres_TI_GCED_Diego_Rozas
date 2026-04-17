@@ -27,5 +27,5 @@
   "workbench.panel.defaultLocation": "bottom",
   "workbench.panel.opensMaximized": false,
   "workbench.editor.restoreViewState": false,
-  "workbench.activityBar.location": "hidden"
+  "workbench.activityBar.location": "default"
 }
